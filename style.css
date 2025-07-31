@@ -20,6 +20,8 @@ body {
   gap: 10px;
   width: 20px;
   height: 800px;
+  cursor: pointer;
+
 
 
 }
@@ -76,5 +78,5 @@ p {
 .whatsapp {}
 
 .tuerca {
-  justify-items: end;
+  margin-top: auto;
 }
