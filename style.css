@@ -50,6 +50,8 @@ body {
   background-color: white;
   width: 20%;
   height: 800px;
+  gap: 10px;
+  padding: 20px;
 }
 
 .avatar {
@@ -62,6 +64,7 @@ p {
   font-family: sans-serif;
   font-weight: bold;
 
+
 }
 
 .vistaprevia {
@@ -73,5 +76,5 @@ p {
 .whatsapp {}
 
 .tuerca {
-  align-items: end;
+  justify-items: end;
 }
