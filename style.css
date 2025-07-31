@@ -34,7 +34,8 @@ body {
   gap: 10px;
   width: 20%;
   height: 700px;
-  overflow-y: auto;
+  /*overflow-y: auto; */
+  /*no me cierra el scroll*/
   color: white;
 }
 
