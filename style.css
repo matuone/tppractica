@@ -55,7 +55,6 @@ body {
   flex-direction: column;
   justify-content: space-between;
   height: 740px;
-  padding: 20px;
   background-image: url(fondochat.jpg);
   background-size: cover;
   background-position: center;
@@ -102,7 +101,9 @@ p {
   color: white;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
-
+  margin-bottom: 10px;
+  width: 80%;
+  align-self: center;
 }
 
 
