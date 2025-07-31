@@ -20,3 +20,21 @@ body {
 
 
 }
+
+.chats {
+  padding: 20px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100px;
+  height: auto;
+
+}
+
+.whatsapp {
+  display: flex;
+  flex-direction: row;
+}
+
+.mensaje {}
