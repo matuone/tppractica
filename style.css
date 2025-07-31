@@ -12,6 +12,11 @@ body {
 .iconos {
   padding: 20px;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100px;
+  height: auto;
 
 
 }
