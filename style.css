@@ -108,3 +108,16 @@ p {
   background-position: 10px center;
   font-size: 14px;
 }
+
+.chatsuperior {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.chatsuperior img {
+  height: 20px;
+  width: auto;
+  cursor: pointer;
+
+}
