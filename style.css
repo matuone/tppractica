@@ -18,8 +18,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: 20px;
-  height: 800px;
+  width: 25px;
+  height: 700px;
   cursor: pointer;
 
 
@@ -33,7 +33,7 @@ body {
   flex-direction: column;
   gap: 10px;
   width: 20%;
-  max-height: 800px;
+  height: 700px;
   overflow-y: auto;
 
 }
@@ -52,7 +52,7 @@ body {
 .mensaje {
   background-color: white;
   width: 20%;
-  height: 800px;
+  height: 700px;
   gap: 10px;
   padding: 20px;
 }
@@ -95,3 +95,5 @@ p {
 .avatar {
   justify-content: flex-start;
 }
+
+.buscar {}
