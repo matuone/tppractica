@@ -14,7 +14,7 @@ body {
 
 .iconos {
   padding: 20px;
-  background-color: white;
+  background-color: rgb(70, 70, 70);
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -28,14 +28,14 @@ body {
 
 .chats {
   padding: 20px;
-  background-color: yellowgreen;
+  background-color: rgb(42, 42, 42);
   display: flex;
   flex-direction: column;
   gap: 10px;
   width: 20%;
   height: 700px;
   overflow-y: auto;
-
+  color: white;
 }
 
 .whatsapp {
@@ -100,7 +100,7 @@ p {
   max-width: 450px;
   padding: 5px 5px 5px 34px;
   border: none;
-  background-color: white;
+  background-color: rgb(64, 64, 64);
   background-image: url('lupa.png');
   background-repeat: no-repeat;
   background-size: 16px 16px;
