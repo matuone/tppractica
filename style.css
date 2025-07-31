@@ -20,7 +20,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: 100px;
+  width: 20px;
   height: auto;
 
 
@@ -28,11 +28,11 @@ body {
 
 .chats {
   padding: 20px;
-  background-color: black;
+  background-color: yellowgreen;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: 100px;
+  width: 50px;
   height: auto;
 
 }
