@@ -39,6 +39,11 @@ body {
 .whatsapp {
   display: flex;
   flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 40px 0;
+  box-sizing: border-box;
 }
 
 .mensaje {
@@ -49,11 +54,14 @@ body {
 
 .avatar {
   width: 40px;
+
+
 }
 
 p {
   font-family: sans-serif;
   font-weight: bold;
+
 }
 
 .vistaprevia {
@@ -62,13 +70,8 @@ p {
   font-weight: normal;
 }
 
-.whatsapp {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  padding: 40px 0;
-  box-sizing: border-box;
+.whatsapp {}
 
+.tuerca {
+  align-items: end;
 }
