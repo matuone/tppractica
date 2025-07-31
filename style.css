@@ -33,19 +33,20 @@ body {
   flex-direction: column;
   gap: 10px;
   width: 20%;
-  height: 800px;
-
+  max-height: 800px;
+  overflow-y: auto;
 
 }
 
 .whatsapp {
   display: flex;
   flex-direction: row;
-  align-items: stretch;
+  align-items: flex-start;
   justify-content: center;
   min-height: 100vh;
   padding: 40px 0;
   box-sizing: border-box;
+
 }
 
 .mensaje {
@@ -57,7 +58,12 @@ body {
 }
 
 .avatar {
+  float: left;
   width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom: 5px;
 
 
 }
@@ -79,4 +85,13 @@ p {
 
 .tuerca {
   margin-top: auto;
+}
+
+.escribetumensaje {
+  background-color: gray;
+
+}
+
+.avatar {
+  justify-content: flex-start;
 }
