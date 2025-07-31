@@ -121,3 +121,25 @@ p {
   cursor: pointer;
 
 }
+
+.barrasuperiormensaje {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  font-size: 10px;
+
+}
+
+.barrasuperiormensaje img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.barrasuperiormensaje p {
+  color: gray;
+
+
+}
