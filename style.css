@@ -125,6 +125,11 @@ p {
 .chatsuperior {
   display: flex;
   justify-content: space-between;
+  color: white;
+  font-size: 13px;
+  align-items: center;
+
+
 
 }
 
@@ -132,7 +137,13 @@ p {
   height: 20px;
   width: auto;
   cursor: pointer;
+  display: flex;
+  margin-left: 10px;
 
+}
+
+.chatsuperior h1 {
+  margin-right: auto;
 }
 
 .barrasuperiormensaje {
@@ -167,4 +178,19 @@ p {
   font-size: 14px;
   margin: 0;
   color: white;
+}
+
+.chatsuperior h1 {
+  margin-top: -12px;
+  font-weight: normal;
+
+}
+
+.botonenvio {
+  width: 20px;
+  height: auto;
+  cursor: pointer;
+
+
+
 }
